@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Repos/College Cryptography Programmes/College-Cryptography-Programmes/Caesar and Affine Ciphers/main.cpp
+iostream
+-
+map
+-
+string
+-
+
