@@ -1,0 +1,4 @@
+It is a Feistel network that at every iteration replaces a, b, c, d with b, c, d, a each xored with a certain function then the new a, b, c, d are then replaced with c, b, a, d each xored as well with a certain function. That means 
+
+To decrypt, all we need to do is reverse the order of replacements and the replacements themselves. We first replace c, b, a, d with a, b, c,d each xored with same functions in the same order, then b, c, d, a with a, b, c, d xored with the same functions in the same ordering.
+However, we need to decrypt a, b, c, d letter by letter, and not on a single line as encryption, because we need the oiginal characters to be input into the F function to get the right values.
